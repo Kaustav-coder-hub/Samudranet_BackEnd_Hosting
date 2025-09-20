@@ -1,0 +1,95 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporarily created files
+*.tmp
+*.bak
+*.swp
+*.~
+
+# Local configuration
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Large model files & datasets
+# Uncomment if you want to exclude these files from version control
+# *.pkl
+# *.h5
+# *.csv
+# *.json
+
+# Unit test reports
+report/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Compiled frontend assets
+static/
